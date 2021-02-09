@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+:root { 
+    font-family: 'Jost', sans-serif;
+}
+
+header nav .logo {
+    font-family: 'Jost', sans-serif;
+    font-size: 5rem;
+    font-weight:bold;
+    text-align: center;
+    color: green;
+
+}
+
+header nav .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+    }
+
+
+p:hover {
+    text-decoration: underline;
+}    
+
+#contacts {
+    color: red;
+}
+h2 {
+  color: green; 
+}
+
+h3 {
+    color: darkmagenta;
+}
+
+
