@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
 :root { 
+    --main-color: green;
     font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
 }
 
 header nav .logo {
@@ -9,18 +16,20 @@ header nav .logo {
     font-size: 5rem;
     font-weight:bold;
     text-align: center;
-    color: green;
+    text-decoration: none;
+    color: var(--mail-color);color: green;
 
 }
 
 header nav .menu {
     display: flex;
     justify-content: space-around;
-    padding: 0;
     list-style-type: none;
     flex-wrap: wrap;
+    padding: 3px;
     }
 
+@media(min-width: 610px)
 
 p:hover {
     text-decoration: underline;
@@ -29,12 +38,13 @@ p:hover {
 #contacts {
     color: red;
 }
+
 h2 {
-  color: green; 
+  var(--mail-color);color: 
 }
 
 h3 {
-    color: darkmagenta;
+    color: brown;
 }
 
 
