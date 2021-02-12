@@ -2,13 +2,19 @@
 
 :root { 
     --main-color: green;
+    --accent-color: white; 
     font-family: 'Jost', sans-serif;
     scroll-behavior: smooth;
 }
 
+
 body {
     max-width: 980px;
     margin: auto;
+}
+.subheader {
+    background-image:url(../img/leaf.jpg);
+    background-size: cover;
 }
 
 header nav .logo {
@@ -17,9 +23,9 @@ header nav .logo {
     font-weight:bold;
     text-align: center;
     text-decoration: none;
-    color: var(--mail-color);color: green;
-
-}
+    color: green;
+    
+    }
 
 header nav .menu {
     display: flex;
@@ -27,9 +33,15 @@ header nav .menu {
     list-style-type: none;
     flex-wrap: wrap;
     padding: 3px;
+    
     }
 
-@media(min-width: 610px)
+@media(min-width: 610px){
+    header nav 
+    { display: flex;}
+}
+
+
 
 p:hover {
     text-decoration: underline;
@@ -40,11 +52,9 @@ p:hover {
 }
 
 h2 {
-  var(--mail-color);color: 
+  var(--main-color);
 }
 
 h3 {
     color: brown;
-}
-
-
+} 
